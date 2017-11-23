@@ -10338,9 +10338,11 @@ module.exports = __webpack_require__(2);
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* WEBPACK VAR INJECTION */(function($) {/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_bootstrap__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_bootstrap___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_bootstrap__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sub__ = __webpack_require__(16);
 
 
-$('#msg').text('World!');
+
+$('#msg').text(Object(__WEBPACK_IMPORTED_MODULE_1__sub__["a" /* default */])());
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(0)))
 
 /***/ }),
@@ -12792,6 +12794,16 @@ __webpack_require__(15)
 }(jQuery);
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
+/***/ }),
+/* 16 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = sub;
+function sub() {
+    return "Sub World!";
+}
 
 /***/ })
 /******/ ]);

@@ -6,8 +6,8 @@ Bootstrap と jquery を
 
 * 次のコマンドで準備する
 
-1. npm install
-2. npm run build
-3. /root/index.html を開く
-
+```bat
+npm install
+npm run build
+```
 以上
